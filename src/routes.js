@@ -151,7 +151,7 @@ const routes = [
   { path: '/charts', name: 'Charts', element: Charts },
   { path: '/forms', name: 'Forms', element: FormControl, exact: true },
   { path: '/forms/employeerecords', name: 'Employeerecords', element: Employeerecords },
-  { path: '/forms/shiftmanagement', name: 'ShiftManagement', element: ShiftManagement },
+  { path: '/forms/shiftmanagement', name: 'Shiftmanagement', element: Shiftmanagement },
   {
     path: '/forms/payrollleavemanagement',
     name: 'Payrollleavemanagement',
