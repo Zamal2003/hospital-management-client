@@ -255,4 +255,4 @@ const Shiftmanagement = () => {
   )
 }
 
-export default ShiftManagement
+export default Shiftmanagement
