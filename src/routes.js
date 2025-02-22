@@ -46,7 +46,7 @@ const Dropdowns = React.lazy(() => import('./views/buttons/dropdowns/Dropdowns')
 
 //Forms
 const Employeerecords = React.lazy(() => import('./views/forms/employeerecords/Employeerecords'))
-// const Shiftmanagement = React.lazy(() => import('./views/forms/shiftmanagement/Shiftmanagement'))
+const Shiftmanagement = React.lazy(() => import('./views/forms/shiftmanagement/Shiftmanagement'))
 const Payrollleavemanagement = React.lazy(
   () => import('./views/forms/payrollleavemanagement/Payrollleavemanagement'),
 )
@@ -149,8 +149,7 @@ const routes = [
   { path: '/charts', name: 'Charts', element: Charts },
   { path: '/forms', name: 'Forms', element: FormControl, exact: true },
   { path: '/forms/employeerecords', name: 'Employeerecords', element: Employeerecords },
-  // { path: '/forms/shiftmanagement', name: 'Shiftmanagement', element: Shiftmanagement },
-    {
+  { path: '/forms/shiftmanagement', name: 'Shiftmanagement', element: Shiftmanagement },  {
     path: '/forms/payrollleavemanagement',
     name: 'Payrollleavemanagement',
     element: Payrollleavemanagement,
