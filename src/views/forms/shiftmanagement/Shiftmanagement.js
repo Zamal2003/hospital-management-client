@@ -20,7 +20,7 @@ import {
 import React, { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 
-const ShiftManagement = () => {
+const Shiftmanagement = () => {
   const navigate = useNavigate()
 
   // Authentication Check: Redirect to login if no token found
